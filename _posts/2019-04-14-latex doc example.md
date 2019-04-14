@@ -1,17 +1,38 @@
 $$
-% Example LaTeX document for GP111 - note % sign indicates a comment
-\documentstyle[11pt]{article}
-% Default margins are too wide all the way around. I reset them here
-\setlength{\topmargin}{-.5in}
-\setlength{\textheight}{9in}
-\setlength{\oddsidemargin}{.125in}
-\setlength{\textwidth}{6.25in}
+\documentclass{article}
+\usepackage{graphicx}
+
 \begin{document}
-\title{LaTeX Typesetting By Example}
-\author{Phil Farrell\\
-Stanford University School of Earth Sciences}
-\renewcommand{\today}{November 2, 1994}
+
+\title{Introduction to \LaTeX{}}
+\author{Author's Name}
+
 \maketitle
-This article demonstrates a basic set of LaTeX formatting commands.
-Compare the typeset output side-by-side with the input document.
+
+\begin{abstract}
+The abstract text goes here.
+\end{abstract}
+
+\section{Introduction}
+Here is the text of your introduction.
+
+\begin{equation}
+    \label{simple_equation}
+    \alpha = \sqrt{ \beta }
+\end{equation}
+
+\subsection{Subsection Heading Here}
+Write your subsection text here.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.0in]{myfigure}
+    \caption{Simulation Results}
+    \label{simulationfigure}
+\end{figure}
+
+\section{Conclusion}
+Write your conclusion here.
+
+\end{document}
 $$
