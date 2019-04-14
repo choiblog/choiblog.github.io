@@ -13,7 +13,7 @@ url: https://choiblog/choiblog.github.io
 baseurl: /choiblog.github.io
 
 # These can be '' to hide the Github or Gitlab nav buttons
-github: 'choiblog/choiblog.github.io'
+github: ''
 gitlab: ''
 
 # Set this to your UA-# value, or '' to disable the block completely
