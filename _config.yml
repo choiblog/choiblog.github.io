@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: My blog
-description: A jekyll theme
+description: choi homepage
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://choiblog/choiblog.github.io
